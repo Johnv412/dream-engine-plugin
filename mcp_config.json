@@ -9,8 +9,8 @@
         {
           "name": "DREAM_ENGINE_API_KEY",
           "title": "Dream Engine API Key",
-          "description": "Your Dream Engine API key. Paste the Bearer token from your Dream Engine dashboard.",
-          "link": "https://dreamagent-abf13.web.app"
+          "description": "Your Dream Engine key. It starts with de_ and opens your brain only.",
+          "link": "https://github.com/Johnv412/dream-engine-plugin#get-a-key"
         }
       ],
       "tools": {

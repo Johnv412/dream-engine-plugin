@@ -5,6 +5,13 @@
   "description": "Persistent remote memory for Antigravity. Recall prior context, search architectural decisions, and log project milestones across sessions with Dream Engine.",
   "version": "1.0.0",
   "author": "Dream Engine",
+  "license": "MIT",
+  "keywords": [
+    "memory",
+    "agent memory",
+    "long-term memory",
+    "context"
+  ],
   "homepage": "https://dreamagent-abf13.web.app",
   "repository": "https://github.com/Johnv412/dream-engine-plugin",
   "logo": "assets/logo.svg",

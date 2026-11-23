@@ -18,32 +18,25 @@ Dream Engine remembers your architectural decisions, project conventions, and wo
 
 ## Installation
 
-### Option 1: Install from the Antigravity Marketplace
+Marketplace listing: coming soon.
 
-1. Open **Antigravity** and go to the **Plugins / Marketplace** panel.
-2. Search for **Dream Engine**.
-3. Click **Install**.
-4. When prompted, enter your Dream Engine credentials (see [Configuration](#configuration) below).
-
-### Option 2: Install from GitHub
-
-You can install this plugin directly using the Antigravity CLI:
+Install this plugin from GitHub using the Antigravity CLI:
 
 ```bash
 agy plugin install https://github.com/Johnv412/dream-engine-plugin
 ```
 
-Or add the repository URL in the Antigravity Plugins Manager under **Install from GitHub**.
-
 ---
 
 ## Configuration
 
-After installing, Antigravity will prompt you for your Dream Engine API key:
+When you enable the plugin, Antigravity will prompt you for your `DREAM_ENGINE_API_KEY`—a required key starting with `de_` that opens your brain only (self-service dashboard: coming soon).
 
-| Setting | Required? | What to enter |
-| --- | --- | --- |
-| **`DREAM_ENGINE_API_KEY`** | **Required** | Paste your API key from your [Dream Engine dashboard](https://dreamagent-abf13.web.app). |
+---
+
+## Get a key
+
+Dream Engine is invite-only for now. To ask for a key, open an issue at https://github.com/Johnv412/dream-engine-plugin/issues (do not paste any key or password in the issue).
 
 ---
 
@@ -68,4 +61,4 @@ This plugin ships with strict built-in memory rules (`rules/AGENTS.md`):
 
 ## Support
 
-Visit [https://dreamagent-abf13.web.app](https://dreamagent-abf13.web.app) to manage your API keys, brains, and account settings.
+Self-service dashboard: coming soon. For questions or key requests, open an issue at https://github.com/Johnv412/dream-engine-plugin/issues.
