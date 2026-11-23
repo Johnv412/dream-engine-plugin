@@ -2,6 +2,8 @@
 
 Give Google Antigravity persistent, long-term memory across sessions with **Dream Engine**.
 
+Website, privacy policy and terms: https://dreamengine.dev
+
 Dream Engine remembers your architectural decisions, project conventions, and workflow preferences—so you don't have to repeat context every time you start a new conversation.
 
 ---
