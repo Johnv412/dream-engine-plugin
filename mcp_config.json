@@ -3,22 +3,14 @@
     "dream-engine": {
       "serverUrl": "https://dreamagent-abf13.web.app/mcp",
       "headers": {
-        "Authorization": "Bearer ${DREAM_ENGINE_API_KEY}",
-        "X-DreamEngine-Agent": "${DREAM_ENGINE_AGENT_ID}"
+        "Authorization": "Bearer ${DREAM_ENGINE_API_KEY}"
       },
       "variables": [
         {
           "name": "DREAM_ENGINE_API_KEY",
           "title": "Dream Engine API Key",
-          "description": "Your Dream Engine API key (required). Paste the Bearer token from your Dream Engine dashboard.",
-          "link": "https://dreamagent-abf13.web.app",
-          "required": true
-        },
-        {
-          "name": "DREAM_ENGINE_AGENT_ID",
-          "title": "Brain / Agent ID (Optional)",
-          "description": "Optional brain/agent ID. Multi-tenant SaaS customers enter their chosen brain/agent ID here; single-brain API key users leave this empty.",
-          "required": false
+          "description": "Your Dream Engine key. It starts with de_ and opens your brain only.",
+          "link": "https://github.com/Johnv412/dream-engine-plugin#get-a-key"
         }
       ],
       "tools": {
