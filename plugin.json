@@ -1,0 +1,16 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "dream-engine",
+  "displayName": "Dream Engine",
+  "description": "Persistent remote memory for Antigravity. Recall prior context, search architectural decisions, and log project milestones across sessions with Dream Engine.",
+  "version": "1.0.0",
+  "author": "Dream Engine",
+  "homepage": "https://dreamagent-abf13.web.app",
+  "repository": "https://github.com/Johnv412/dream-engine-plugin",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "Check my Dream Engine memory status and recall recent context",
+    "Search Dream Engine memory for past architectural decisions and preferences",
+    "Log today's key architectural decisions and milestones to Dream Engine"
+  ]
+}

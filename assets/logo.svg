@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" fill="none" role="img" aria-label="Dream Engine AI Brain Memory Core">
+  <defs>
+    <linearGradient id="bgGrad" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1E1B4B"/>
+      <stop offset="55%" stop-color="#312E81"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="brainGrad" x1="68" y1="62" x2="188" y2="194" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#67E8F9"/>
+      <stop offset="50%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#C084FC"/>
+    </linearGradient>
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#67E8F9" stop-opacity="0.95"/>
+      <stop offset="55%" stop-color="#818CF8" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Rounded square badge with ~10% margin -->
+  <rect x="24" y="24" width="208" height="208" rx="48" fill="url(#bgGrad)" stroke="#6366F1" stroke-opacity="0.45" stroke-width="3"/>
+
+  <!-- Ambient memory core glow -->
+  <circle cx="128" cy="128" r="54" fill="url(#coreGlow)"/>
+
+  <!-- Left brain hemisphere -->
+  <path d="M122 72 C104 72 90 82 86 96 C74 99 66 110 68 123 C63 134 68 148 79 154 C80 169 93 182 109 183 C115 184 120 182 122 179 Z"
+        stroke="url(#brainGrad)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="#1E1B4B" fill-opacity="0.45"/>
+
+  <!-- Right brain hemisphere -->
+  <path d="M134 72 C152 72 166 82 170 96 C182 99 190 110 188 123 C193 134 188 148 177 154 C176 169 163 182 147 183 C141 184 136 182 134 179 Z"
+        stroke="url(#brainGrad)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="#1E1B4B" fill-opacity="0.45"/>
+
+  <!-- Neural pathway traces (left) -->
+  <path d="M122 98 H104 L94 108" stroke="#67E8F9" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M122 128 H92" stroke="#A5B4FC" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M122 156 H104 L96 148" stroke="#C084FC" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Neural pathway traces (right) -->
+  <path d="M134 98 H152 L162 108" stroke="#67E8F9" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M134 128 H164" stroke="#A5B4FC" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M134 156 H152 L160 148" stroke="#C084FC" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Neural nodes -->
+  <circle cx="94" cy="108" r="5" fill="#67E8F9"/>
+  <circle cx="88" cy="128" r="5" fill="#A5B4FC"/>
+  <circle cx="96" cy="148" r="5" fill="#C084FC"/>
+  <circle cx="162" cy="108" r="5" fill="#67E8F9"/>
+  <circle cx="168" cy="128" r="5" fill="#A5B4FC"/>
+  <circle cx="160" cy="148" r="5" fill="#C084FC"/>
+
+  <!-- Central memory core -->
+  <circle cx="128" cy="128" r="17" fill="#0F172A" stroke="#67E8F9" stroke-width="5"/>
+  <circle cx="128" cy="128" r="7" fill="#E0F2FE"/>
+</svg>
