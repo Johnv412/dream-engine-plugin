@@ -39,12 +39,11 @@ Or add the repository URL in the Antigravity Plugins Manager under **Install fro
 
 ## Configuration
 
-After installing, Antigravity will prompt you for two settings:
+After installing, Antigravity will prompt you for your Dream Engine API key:
 
 | Setting | Required? | What to enter |
 | --- | --- | --- |
 | **`DREAM_ENGINE_API_KEY`** | **Required** | Paste your API key from your [Dream Engine dashboard](https://dreamagent-abf13.web.app). |
-| **`DREAM_ENGINE_AGENT_ID`** | Optional | **Multi-tenant SaaS customers:** enter your chosen brain/agent ID.<br>**Single-brain API key users:** leave this blank. |
 
 ---
 
